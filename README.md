@@ -37,7 +37,7 @@ This split is what keeps the false-fail rate low enough that the gate stays trus
 
 ## Where it runs
 
-The Eye Test is implemented as the verification gate inside [Distil](../../../../distil), a multi-stage content pipeline - sitting between drafting and publishing, checking each drafted post against its source before it reaches human review. That makes it both a working component and a proof of the concept: a live example of AI output being independently verified mid-pipeline rather than trusted.
+The Eye Test is implemented as the verification gate inside [Distil](../../../distil), a multi-stage content pipeline - sitting between drafting and publishing, checking each drafted post against its source before it reaches human review. That makes it both a working component and a proof of the concept: a live example of AI output being independently verified mid-pipeline rather than trusted.
 
 ## Status
 
